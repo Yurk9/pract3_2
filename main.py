@@ -1,5 +1,7 @@
 import random
 
+conflict = "1"
+
 def fake_news_generator():
     subjects = ["Ученые", "Кошки", "Правительство", "Инопланетяне", "ИИ ChatGPT"]
     actions = ["скрывают", "обнаружили", "создали", "взломали", "съели"]
