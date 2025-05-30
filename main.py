@@ -1,3 +1,5 @@
+conflict = "2"
+
 def is_dozhd(text):
     rain_words = {"дождь", "листья", "осень", "метель", "память", "электричка"}
     return any(word in text.lower() for word in rain_words)
